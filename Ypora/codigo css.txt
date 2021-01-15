@@ -1,0 +1,115 @@
+
+body{
+   font: 20px Arial, sans-serif;
+}
+
+.navbar{
+	background-color: white;
+}
+
+#inicio{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa.jpeg');
+    background-size: 100%;
+	color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.login{
+	text-align: 
+	color: white;
+}
+
+
+.ypora-continue {
+	display: flex;
+	align-items: center;/*horizontal*/
+	justify-content: space-around;/*vertical*/
+	flex-direction: column;
+	width: 100%;
+	min-height: 34rem;
+	background-color: #4a5b16;
+}
+
+.group{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background: #4a5b16;
+	width: 100%;
+	padding: 1.34rem 0;
+}
+
+.group:nth-child[1]{
+	min-height: 19rem;
+}
+
+
+.profile-photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-photo img{
+	height: 6rem;
+}
+
+.ypora-login{
+	background-color: #0095f6; 
+	color: #ffffff;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.ypora-logout{
+	color: #0095f6;
+	margin-top: 1rem;
+}
+
+.not-account{
+	color: rgb(160, 160, 160);
+}
+
+.link-blue{
+	color: #0095f6;
+}
+
+.get-the-app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download{
+	display: flex;
+	width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem; 
+}
+
+
+
+.margin{
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+
+
+.bg-footer{
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+ 	    <title> Minha página </title>
+ 	    <meta charset="utf-8">
+ 	    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+ 	    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+         
+      <header>
+    	<div class="container">
+    	<img src="img/ypora-horizontal.png" height="50px" width="100px">
+            <nav>
+    	        <a href="#inicio"> Inicio </a>
+                <a href="#galeria"> Galeria</a>
+                <a href="#rotas"> Rotas </a>
+                <a href="#"> Sobre o App </a>
+    		</nav>
+    	</div>
+    </header>
+
+         <section id="inicio">
+         	<div class="container-fluid quem-somos text-center margin">
+         		<h2 class="margin"> Ypora, o app consiênte! </h2>
+         		<p> Você é, ou deseja se tornar um aventureiro? Então, venha conhcer nosso app!</p>
+         		
+         	</div>
+         </section>
+
+         <section id="galeria">
+         	<div class="container-fluid text-center margin galeria">
+         		<h2 class="margin"> Galeria </h2>
+                <div class="container">
+                	<div class="row">
+                		<div class="col-md-4">
+                			<img src="img/galeria01.jpeg" width="100%">
+                			<p> Paisagens Naturais </p>
+                		</div>
+                		<div class="col-md-4">
+                			<img src="img/galeria02.jpeg" width="100%">
+                			<p> Cachoeiras </p>
+                		</div>
+                		<div class="col-md-4">
+                			<img src="img/galeria03.jpeg" width="100%">
+                			<p> Trilhas </p>
+                		</div>
+                	</div>
+                </div>
+         	</div>
+         </section>
+        
+         <section id="rotas">
+         	<div class="container-fluid text-center margin servicos">
+         		<h3 class="margin"> Rotas </h3>
+         		<div class="container">
+         			<div class="row">
+         				<div class="col-lg-6">
+         					<p> **Instruções sobre a rota** </p>
+         					<img src="img/mapa.jpeg" width="100%">
+         				</div>
+         				<div class="col-lg-6">
+         					
+         					<p> Morro do Gavião é uma formação rochosa localizada em uma propriedade particular no município de Ribeirão Claro, no norte do estado do Paraná. </p>
+         					<img src="img/morro-do-gaviao.jpg" width="80%">
+         				</div>
+         			</div>
+         		</div>
+         	</div>
+         </section>
+
+         <section id="morro">
+         	<div class="container-fluid text-center margin servicos">
+         		<h3 class="margin"> Sobre o App </h3>
+         		<div class="container">
+         			<div class="row">
+         				<div class="col-lg-6">
+         				<p> Somos um app que visa solucionar uma grande deficiência de conhecimento e potencial econômico
+                           ao mesmo tempo que promove a preservação ecológica e o espírito de reconstrução da flora.
+         				   Em nosso país mas principalmente em nossa região de localização (vale do paranapanema) existe um imenso potencial econômico ligado ao turismo rural e ecológico, o problema é que normalmente as trilhas, fazendas, cachoeiras, clareiras e campings são desconhecidos a grande maioria das pessoas da região e as poucas pessoas que conhecem não sabem como podem fazer uso dos recursos sem agredir o meio-ambiente, muito menos como eles podem ajudar a melhorar e aumentar a fauna daquele ambiente. </p>
+                          
+         					
+         				</div>
+         				<div class="col-lg-6">
+                        <p> Nosso aplicativo traz soluções exatamente nesse sentido. Queremos promover uma socialização dos pontos turísticos com uma pequena rede social voltada a preservação e educação ecológica, onde nossos usuários vão conseguir encontrar atrações que lhes agradem, podendo reviver as experiências e avaliações das pessoas anteriores baseadas na localização do mapa, promovendo assim uma maior segurança do visitante como por exemplo avisos de profundidade de cachoeiras ou a presença de animais peçonhentos, mas principalmente os educando para uma mentalidade ecologicamente correta, como orientação sobre o não uso ou destinação correta dos resíduos mas melhor do que isso ensinando quais os tipos de árvores e plantas que eles podem levar para plantar no local e os incentivando a partir de uma gamificação da visita com pontuação extra para quem tem o nosso selo ecológico.
+         			    </p>
+         				</div>
+         			</div>
+         		</div>
+         	</div>
+         </section>
+
+         <footer class="container-fluid text-center bg-footer margin">
+         	<p> Desenvolvido por Fomenters </p>
+         </footer>
+
+    
+    </body>
+</html>
